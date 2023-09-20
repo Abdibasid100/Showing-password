@@ -1,0 +1,33 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: blueviolet;
+}
+.input-box {
+  margin: 200px auto;
+  width: 90%;
+  max-width: 500px;
+  height: 60px;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  align-items: center;
+}
+.input-box input {
+  height: 100%;
+  width: 90%;
+  padding-left: 10px;
+  font-size: 20px;
+  border: none;
+  outline: 0;
+}
+.input-box img {
+  width: 40px;
+  margin-left: 0px;
+  cursor: pointer;
+}
+::placeholder {
+  font-size: 18px;
+}
